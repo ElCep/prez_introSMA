@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<title>Introduction aux SMA</title>
+
+		<meta name="description" content="Introduction aux SMA">
+		<meta name="author" content="Etienne DELAY">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/night.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<!-- Any section element inside of this container is displayed as a slide -->
+				<div class="slides">
+					<!-- Au commencement ? Les sources du doctorat ?-->
+					<section>
+						<h3>Les systèmes multi-agents : histoire d'émergence spatiale en géographie</h3>
+						<p style="text-align:center;">
+							<small>Par <a href="http://geolab.univ-bpclermont.fr/spip.php?article184">Etienne Delay</a></small> </br>
+							<small>24 février 2017</small></br>
+							<img data-src="./img/logoGEOLAB.png" alt="logo geolab" height="150"
+						</p>
+					</section>
+					<section>
+						<!--La modélisation , la simulation, les sciences de la complexité et les modèles multi-agents -->
+						<section>
+							<h3>Un peut de théories</h3>
+							<h4>Modélisation, simuler, théoriser</h4>
+						</section>
+						<section>
+							<h3>Modéliser</h3>
+							<blockquote cite="http://www.amazon.fr/MODELISATION-SIMULATION-DECOSYSTEMES-d%C3%A9terministes-simulations/dp/2225853630">
+							&ldquo;un modèle est une abstraction qui simplifie le système réel étudié [...], pour se focaliser sur les aspects qui intéressent le modélisateur&rdquo;</br>
+							</blockquote>
+							<p align="right">P. Coquillard et D.R.C. Hill 1997</p>
+							<blockquote cite="http://www.amazon.fr/Mod%C3%A9liser-social-M%C3%A9thodes-fondatrices-%C3%A9volutions/dp/2100557440/ref=sr_1_1?s=books&ie=UTF8&qid=1384531308&sr=1-1">
+							&ldquo;un modèle a pour fonction d'être un instrument de facilitation d'une médiation&rdquo;</br>
+							</blockquote>
+							<p align="right">M.S. Morgan et M. Morrison 1999</p>
+						</section>
+						<section>
+							<h3>Simuler</h3>
+							<blockquote cite="http://www.amazon.fr/MODELISATION-SIMULATION-DECOSYSTEMES-d%C3%A9terministes-simulations/dp/2225853630">
+							&ldquo;La simulation consiste à plonger le modèle dans le temps&rdquo;</br>
+							</blockquote>
+							<p align="right">P. Coquillard et D.R.C. Hill 1997</p>
+							<p>Les simuation servent à explorer le fonctionnement et les propriétés <b>d’un système modélisé</b> ainsi qu’à en étudier son évolution</p>
+						</section>
+						<section>
+							<h3>Prédire &ne; Expliquer</h3>
+							<blockquote cite="http://www.amazon.fr/Pr%C3%A9dire-nest-expliquer-Rene-Thom/dp/2081224984/ref=sr_1_1?ie=UTF8&qid=1384529013&sr=8-1&keywords=predire+n%27est+pas+expliquer">
+							&ldquo;La théorisation [...] est liée à la possibilité de plonger le réel dans un virtuel imaginaire, doté de propriétés génératives, qui permettent de faire des prévisions&rdquo;</br>
+							</blockquote>
+							<p align="right">R. Thom 2009</p>
+							<a href="http://www.amazon.fr/Pr%C3%A9dire-nest-expliquer-Rene-Thom/dp/2081224984/ref=sr_1_1?ie=UTF8&qid=1384529013&sr=8-1&keywords=predire+n%27est+pas+expliquer">
+							  <img width="160" height="238" src="img/thom.jpg" alt="couverture livre Rene Thom">
+							</a>
+						</section>
+						<section>
+							<h3>Un système complexe</h3>
+							<p>Un <b>système est dit complexe</b> si le résultat final n'est pas prédictible directement en connaissant les règles qui le régisse. On parle alors d'<b>émergence</b>!</p>
+							<img width="160" src="img/wiki_logo.png" alt="logo wikipedia">
+						</section>
+						<section>
+							<h3>L'émrgence</h3>
+							<img width="500" src="img/img-2_Daude2004.png" alt="logo wikipedia">
+							<p align="right"><a href = "https://cybergeo.revues.org/3835">E. Daudé</a>, 2004</p>
+						</section>
+						<section>
+							<blockquote>
+								<p>&ldquo;L’homme se découvre quand il se mesure avec l’obstacle. Mais, pour l’atteindre, il lui faut un outil. Il lui faut un rabot, ou une charrue. Le paysan, dans son labour, arrache peu à peu quelques secrets à la nature, et la vérité qu’il dégage est universelle.&rdquo;</p>
+							</blockquote>
+							<p align="right">Saint-Exupéry (1939, p.9)</p>
+						</section>
+						<section data-background="img/Plaque_assay_macro_l.jpg" data-background-transition="slide">
+							<h3>Les SMA : définition</h3>
+							<p  align="left">Un agent est une entité physique ou virtuelle</p>
+							<ul>
+								<li>capable d'agir dans un environnement</li>
+								<li>mue par un ensemble de tendances (sous forme d'objectifs)</li>
+								<li>capable de percevoir (de manière limitée) son environnement</li>
+								<li>dont le comportement tend à satisfaire ses objectifs</li>
+							</ul>
+							<p align="right">J. Ferber 1995</p>
+							<small>crédit photo : <a href="http://fr.wikipedia.org/wiki/Fichier:Plaque_assay_macro.jpg">Y tambe</a> in wikimedia commons</small>
+						</section>
+					</section>
+				<section>Slide 1</section>
+				<section>Slide 2</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
