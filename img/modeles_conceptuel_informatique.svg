@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="560.65405mm"
+   height="322.44714mm"
+   viewBox="0 0 560.65404 322.44714"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
+   sodipodi:docname="modeles_conceptuel_informatique.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.12374369"
+     inkscape:cx="3847.9496"
+     inkscape:cy="439.56064"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1046"
+     inkscape:window-x="3286"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(5.9466018,195.06918)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:13.59422016px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.1328516"
+       x="431.16248"
+       y="17.171883"
+       id="text837"><tspan
+         sodipodi:role="line"
+         id="tspan835"
+         x="431.16248"
+         y="17.171883"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:MathJax_SansSerif;-inkscape-font-specification:MathJax_SansSerif;stroke-width:1.1328516">MODELE(S)</tspan><tspan
+         sodipodi:role="line"
+         x="431.16248"
+         y="34.297413"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:MathJax_SansSerif;-inkscape-font-specification:MathJax_SansSerif;stroke-width:1.1328516"
+         id="tspan839">INFORMATIQUE(S)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:13.59422016px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.1328516"
+       x="-1.7486608"
+       y="-100.96834"
+       id="text843"><tspan
+         sodipodi:role="line"
+         id="tspan841"
+         x="-1.7486608"
+         y="-100.96834"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:MathJax_SansSerif;-inkscape-font-specification:MathJax_SansSerif;stroke-width:1.1328516">MODELE(S) </tspan><tspan
+         sodipodi:role="line"
+         x="-1.7486608"
+         y="-83.842804"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:MathJax_SansSerif;-inkscape-font-specification:MathJax_SansSerif;stroke-width:1.1328516"
+         id="tspan929">CONCEPTUEL(S)</tspan></text>
+    <g
+       id="g927"
+       transform="matrix(4.2816443,0,0,4.2816443,3.1064102,-401.60093)">
+      <g
+         transform="translate(0.09449196)"
+         id="g859">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:3.17499995px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="62.65062"
+           y="58.430416"
+           id="text817"><tspan
+             sodipodi:role="line"
+             id="tspan815"
+             x="63.047493"
+             y="58.430416"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:MathJax_SansSerif;-inkscape-font-specification:MathJax_SansSerif;text-align:center;text-anchor:middle;stroke-width:0.26458332">Diagrammes </tspan><tspan
+             sodipodi:role="line"
+             x="62.65062"
+             y="62.430172"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:MathJax_SansSerif;-inkscape-font-specification:MathJax_SansSerif;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+             id="tspan819">(par ex. ARDI)</tspan></text>
+        <rect
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect839"
+           width="25.513393"
+           height="12.662203"
+           x="49.892857"
+           y="53.394344" />
+      </g>
+      <g
+         transform="translate(0,-1.3701683)"
+         id="g866">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:3.17499995px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="62.691658"
+           y="84.687286"
+           id="text823"><tspan
+             sodipodi:role="line"
+             id="tspan821"
+             x="63.088535"
+             y="84.687286"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:MathJax_SansSerif;-inkscape-font-specification:MathJax_SansSerif;text-align:center;text-anchor:middle;stroke-width:0.26458332">Explicitation de la structure </tspan><tspan
+             sodipodi:role="line"
+             x="63.088535"
+             y="88.687042"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:MathJax_SansSerif;-inkscape-font-specification:MathJax_SansSerif;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+             id="tspan825">des entités, de leurs dynamiques </tspan><tspan
+             sodipodi:role="line"
+             x="62.691658"
+             y="92.686798"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:MathJax_SansSerif;-inkscape-font-specification:MathJax_SansSerif;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+             id="tspan827">et de leurs interactions</tspan></text>
+        <rect
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect841"
+           width="47.625"
+           height="16.630953"
+           x="38.931545"
+           y="79.285713" />
+      </g>
+      <g
+         transform="translate(0.28347969,0.52916667)"
+         id="g872">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:3.17499995px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="62.472744"
+           y="111.45904"
+           id="text831"><tspan
+             sodipodi:role="line"
+             id="tspan829"
+             x="62.869617"
+             y="111.45904"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:MathJax_SansSerif;-inkscape-font-specification:MathJax_SansSerif;text-align:center;text-anchor:middle;stroke-width:0.26458332">Code en langage </tspan><tspan
+             sodipodi:role="line"
+             x="62.472744"
+             y="115.45879"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:MathJax_SansSerif;-inkscape-font-specification:MathJax_SansSerif;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+             id="tspan833">informatique (par ex. SMA)</tspan></text>
+        <rect
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect843"
+           width="46.302082"
+           height="15.497024"
+           x="39.309525"
+           y="104.98809" />
+      </g>
+      <g
+         id="g6"
+         transform="matrix(0.01841674,0,0,0.01841674,58.027791,67.306484)">
+        <g
+           id="g4">
+          <path
+             id="path2"
+             d="m 479.046,283.925 c -1.664,-3.989 -5.547,-6.592 -9.856,-6.592 H 352.305 V 10.667 C 352.305,4.779 347.526,0 341.638,0 H 170.971 c -5.888,0 -10.667,4.779 -10.667,10.667 V 277.334 H 42.971 c -4.309,0 -8.192,2.603 -9.856,6.571 -1.643,3.989 -0.747,8.576 2.304,11.627 l 212.8,213.504 c 2.005,2.005 4.715,3.136 7.552,3.136 2.837,0 5.547,-1.131 7.552,-3.115 L 476.742,295.553 c 3.051,-3.052 3.968,-7.638 2.304,-11.628 z"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+      <g
+         id="g6-2"
+         transform="matrix(0.01841674,0,0,0.01841674,58.027791,95.509326)">
+        <g
+           id="g4-8">
+          <path
+             id="path2-2"
+             d="m 479.046,283.925 c -1.664,-3.989 -5.547,-6.592 -9.856,-6.592 H 352.305 V 10.667 C 352.305,4.779 347.526,0 341.638,0 H 170.971 c -5.888,0 -10.667,4.779 -10.667,10.667 V 277.334 H 42.971 c -4.309,0 -8.192,2.603 -9.856,6.571 -1.643,3.989 -0.747,8.576 2.304,11.627 l 212.8,213.504 c 2.005,2.005 4.715,3.136 7.552,3.136 2.837,0 5.547,-1.131 7.552,-3.115 L 476.742,295.553 c 3.051,-3.052 3.968,-7.638 2.304,-11.628 z"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:18.98997879px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.58249819"
+       x="134.33031"
+       y="-20.639999"
+       id="text937"
+       transform="scale(0.71586287,1.3969156)"><tspan
+         sodipodi:role="line"
+         id="tspan935"
+         x="134.33031"
+         y="-20.639999"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:151.91983032px;font-family:'Droid Arabic Naskh';-inkscape-font-specification:'Droid Arabic Naskh';stroke-width:1.58249819">{</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:19.14689827px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.59557486"
+       x="-607.93152"
+       y="62.625114"
+       id="text937-1"
+       transform="scale(-0.71586286,1.3969156)"><tspan
+         sodipodi:role="line"
+         id="tspan935-1"
+         x="-607.93152"
+         y="62.625114"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:153.17518616px;font-family:'Droid Arabic Naskh';-inkscape-font-specification:'Droid Arabic Naskh';stroke-width:1.59557486">{</tspan></text>
+  </g>
+</svg>

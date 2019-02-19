@@ -39,10 +39,10 @@
 				<div class="slides">
 					<!-- Au commencement ? Les sources du doctorat ?-->
 					<section>
-						<h3>Les systèmes multi-agents : histoire d'émergence spatiale en géographie</h3>
+						<h3>Implémenter et utiliser systèmes à base d'agents dans une démarche ComMod</h3>
 						<p style="text-align:center;">
-							<small>Par <a href="http://geolab.univ-bpclermont.fr/spip.php?article184">Etienne Delay</a></small> </br>
-							<small>11 Aout 2017, <a href ="http://www.openstreetmap.org/#map=17/14.74976/-17.46547">VillaACT</a></small></br>
+							<small>Par <a href="https://www.linkedin.com/in/etienne-delay-8871a45b">Etienne Delay</a> d'après A. Botta et C. Le Page</small> </br>
+							<small>Février 2019, <a href ="https://www.openstreetmap.org/?mlat=43.64777&mlon=3.86729#map=18/43.64777/3.86729">Institut des Régions Chaudes</a> </small></br>
 							<small>Slide sur : <a href="https://rawgit.com/ElCep/prez_introSMA/master/index.html#/">https://huit.re/HPMAw7G1</a></small>
 						</p>
 					</section>
@@ -50,9 +50,8 @@
 						<!--La modélisation , la simulation, les sciences de la complexité et les modèles multi-agents -->
 						<section>
 							<h3>Un peut de théories</h3>
-							<h4>Modélisation, simuler, théoriser</h4>
+							<h4>Modélisation, formaliser, simuler, théoriser</h4>
 							<img data-src="./img/simul.gif" alt="pirate des car" height="150"></img>
-
 						</section>
 						<section>
 							<h3>Modéliser</h3>
@@ -64,6 +63,27 @@
 							&ldquo;un modèle a pour fonction d'être un instrument de facilitation d'une médiation&rdquo;</br>
 							</blockquote>
 							<p align="right">M.S. Morgan et M. Morrison 1999</p>
+						</section>
+						<section>
+								<h3>Formaliser</h3>
+								<p>Obtenir une représentation non ambiguë du modèle en vue de l'exécution de simulations sur ordinateur</p>
+								<img width="700" src="img/modeles_conceptuel_informatique.png" alt="modeles conceptuel et modele informatique">
+						</section>
+						<section>
+								<h3>Formaliser implique des choix</h3>
+								<ul>
+									<li>Le cadre spatio-temporel</li>
+									<ul>
+										<li>le territoire concerné </li>
+										<li>les échelles spatiales</li>
+										<li>la temporalité représentée</li>
+										<li>les échelles de temps</li>
+										<li>Le séquençage des activités dans le temps</li>
+									</ul>
+									<li>Le degré de réalisme de la représentation</li>
+									<li>Les points de vue sur chaque ressource</li>
+								</ul>
+								<img width="400" src="img/doc_how.gif" alt="gif doc how">
 						</section>
 						<section>
 							<h3>Simuler</h3>
@@ -129,22 +149,19 @@
 							<p align="right">J.P. Müller (2012)</p>
 						</section>
 						<section>
-							<h3>Les automates cellulaires</h3>
-							<img width="300" src="img/gameofliferules11.jpg" alt="Game of life sch." style="background-color:white;">
+							<h3>Les differents types d'agents</h3>
+							<img width="500" src="img/modeles_cognitif_adaptatif.png" alt="types d'agents" style="background-color:white;">
+							<p>Du plus simple au plus réactif</p>
 						</section>
 						<section>
-							<h3>Les automates cellulaires</h3>
-							<video preload="auto" controls="controls" src="video/game_of_life.webm" width="500"></video>
-							<p align="right">Von Neumann, J. et Burks, A. W. (1966)</p>
+							<h3>Du plus simple :<i>reflexive agent</i></h3>
+							<img width="500" src="img/reflexive_agent.png" alt="agent reflexive" style="background-color:white;">
+							<p><small>C. Le Page</small></p>
 						</section>
 						<section>
-							<h3>Des applications ?</h3>
-							<ul>
-								<li>Modèles de ruissellement erosif</li>
-								<li>Diffusion des feux de forêts</li>
-								<li>Etalement urbain</li>
-								<li>etc.</li>
-							</ul>
+							<h3>Au plus complexe : Utility based</h3>
+							<img width="500" src="img/utility_based_agents.png" alt="utility based" style="background-color:white;">
+							<p><small>C. Le Page</small></p>
 						</section>
 						<section>
 							<h3>Les Systèmes multi-agents</h3>
@@ -168,7 +185,6 @@
 						</section>
 						<section>
 							<h3>Des applications ?</h3>
-							<p>Tout devient possible</p>
 							<ul>
 								<li>A Psychologically-Motivated Model of Opinion Change with Applications to American Politics</li>
 								<li>Agent-Based Model of Flood Risk and Insurance</li>
@@ -201,14 +217,41 @@
 							<p style="text-align:right;"><a href="http://jasss.soc.surrey.ac.uk/6/2/1.html">Olivier Barreteau <i>et al.</i></a> 2003</p>
 							<img data-src="./img/commod.jpg" alt="logo commod" height="200">
 						</section>
+						<section>
+							<h3>Du choix de l'outil</h3>
+							<ul>
+								<li><strong>Langage de programmation</strong>JAVA, Smalltalk, C++, python, R</li>
+								<li><strong>Environnement de développement (IDE)</strong>, la plupart des langages sont associés à un environnement qui facilite le développement,
+									 les tests, la définition d'interfaces-utilisateurs</li>
+								<li><strong>Plateforme multi-agent</strong>Souvant un langage de plus haut niveau pour faciliter la définitions des classes du modèle (
+									<a href="http://cormas.cirad.fr/">CORMAS</a>,
+									<a href="https://ccl.northwestern.edu/netlogo/">NetLogo</a>,
+									<a href="https://repast.github.io/">REPAST</a>,
+									<a href="https://gama-platform.github.io/" >GAMA</a>)</li>
+							</ul>
+						</section>
 					</section>
 					<section>
 						<section>
-							<h3>Deux cas concrets</h3>
-							<ul>
-								<li>Acidity GIS</li>
-								<li>littoSim</li>
-							</ul>
+							<h3>ReHab comme fil rouge</h3>
+							<img data-src="./img/rehab_ardi.png" alt="rehab ardi" height="450">
+						</section>
+						<section>
+							<h3>ReHab : un diagramme ARDI</h3>
+							<img data-src="./img/rehab_ardi.png" alt="rehab ardi" height="450">
+						</section>
+						<section>
+							<h3>ReHab : vers plus de formalisme avec UML</h3>
+							<img data-src="./img/rehab_uml.png" alt="rehab ardi" height="450">
+						</section>
+						<section>
+							<h3>Implémentation avec CORMAS</h3>
+						</section>
+					</section>
+					<section>
+						<section>
+							<h3>Utilisation</h3>
+							<img data-src="./img/uses_cases.gif" alt="Homer simpson" height="200">
 						</section>
 						<section>
 							<h3>Acidity GIS</h3>
